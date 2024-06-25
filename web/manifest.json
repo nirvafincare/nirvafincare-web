@@ -1,0 +1,11 @@
+{
+    "name": "nirvafincare",
+    "short_name": "nirvafincare",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "We empower individuals and families with personalized, innovative investment opportunities. Our expert guidance ensures financial security and peace of mind, helping clients pursue their passions and leave a lasting legacy.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}

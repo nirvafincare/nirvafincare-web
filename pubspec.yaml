@@ -1,0 +1,50 @@
+name: nirvafincare
+description: "We empower individuals and families with personalized, innovative investment opportunities. Our expert guidance ensures financial security and peace of mind, helping clients pursue their passions and leave a lasting legacy."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# INFO: Widgets
+  scrollable_positioned_list: ^0.3.8
+  flutter_svg: ^2.0.10+1
+  gap: ^3.0.1
+  auto_size_text: ^3.0.0
+
+#  INFO: Tools
+  resize: ^1.0.0
+  url_launcher: ^6.3.0
+  intl: ^0.19.0
+  flutter_riverpod: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: 'gotham'
+      fonts:
+        - asset: assets/fonts/regular.otf
+          weight: 400
+          style: normal
+        - asset: assets/fonts/bold.otf
+          weight: 800
+        - asset: assets/fonts/medium.otf
+          weight: 600
+        - asset: assets/fonts/thin.otf
+          weight: 200

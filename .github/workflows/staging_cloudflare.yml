@@ -57,6 +57,7 @@ jobs:
           git clone https://$ACCESS_TOKEN@github.com/nirvafincare/website.git
           cp -rf nirvafincare-web/. .
           rm -r nirvafincare-web/
+          ls
           git remote remove origin
           git remote add origin https://$ACCESS_TOKEN@github.com/nirvafincare/website.git
           git checkout staging

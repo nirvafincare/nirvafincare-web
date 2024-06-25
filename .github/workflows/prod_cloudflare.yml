@@ -55,6 +55,7 @@ jobs:
           git config --global user.email yashashm.dev@gmail.com
           git config --global user.name yashas-hm
           git clone https://$ACCESS_TOKEN@github.com/nirvafincare/website.git
+          ls
           cp -rf nirvafincare-web/. .
           rm -r nirvafincare-web/
           git remote remove origin

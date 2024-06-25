@@ -59,6 +59,7 @@ jobs:
           rm -r website/
           git remote remove origin
           git remote add origin https://$ACCESS_TOKEN@github.com/nirvafincare/website.git
+          git fetch
           git checkout staging
           cd ..
 
@@ -73,5 +74,5 @@ jobs:
           cp -rf build/. .
           rm -r build/
           git add .
-          git commit -m "Workflow Deploy"
+          git commit --allow-empty -m "Workflow Deploy"
           git push --set-upstream origin staging

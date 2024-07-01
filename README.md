@@ -46,13 +46,14 @@ For more information about Nirva Fincare, visit our [website](https://nirvafinca
 ## Screenshots
 
 ### Desktop
-
+[]()
 <img src="./screenshots/desktop/ss1.png" width="600" alt="">
 <img src="./screenshots/desktop/ss2.png" width="600" alt="">
 <img src="./screenshots/desktop/ss3.png" width="600" alt="">
 <img src="./screenshots/desktop/ss4.png" width="600" alt="">
 
 ### Mobile
+[]()
 <img src="./screenshots/mobile/ss1.png" width="200" alt="">
 <img src="./screenshots/mobile/ss2.png" width="200" alt="">
 <img src="./screenshots/mobile/ss3.png" width="200" alt="">
